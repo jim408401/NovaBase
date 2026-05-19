@@ -144,7 +144,3 @@ Future production optimizations could include:
 - Add timelines for stellar life cycles, galaxy formation, and orbital motion
 - Connect optional public astronomy data sources
 - Improve automatic low-power detection
-
-## License
-
-No license has been selected yet. Add a license before publishing the project publicly.
