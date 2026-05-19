@@ -16,11 +16,23 @@ export type CelestialObject = {
   visual: {
     color: string;
     emissive?: string;
+    texture?: string;
+    ringTexture?: string;
     size: number;
     position: [number, number, number];
     orbitRadius?: number;
     orbitSpeed?: number;
     orbitTilt?: number;
+    rotationSpeed?: number;
+    roughness?: number;
+    metalness?: number;
+    moons?: Array<{
+      name: LocalizedText;
+      color: string;
+      size: number;
+      orbitRadius: number;
+      orbitSpeed: number;
+    }>;
   };
 };
 

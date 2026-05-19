@@ -7,7 +7,7 @@ import type { CelestialType, Language, SectionId } from './types';
 
 const defaultObjectBySection: Record<SectionId, string> = {
   galaxy: 'galactic-core',
-  solar: 'earth',
+  solar: 'sun',
   planets: 'earth',
   stars: 'sun',
 };
